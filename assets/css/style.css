@@ -1,0 +1,154 @@
+*{
+	font-family: arial;
+}
+body{
+	margin: 0px;
+	padding: 0px;
+}
+
+/* topo */
+.cabecalho{
+	background-color: #00CED1;
+	width: auto;
+	height: 200px;
+}
+.logo{
+	width: 150px;
+	height: 150px;
+	padding-top: 30px;
+	margin: auto;
+}
+.logo img{
+	width: 130px;
+	height: 130px;
+	border-radius: 65px;
+}
+
+/* menu */
+.menu{
+	height: 100px;
+}
+.menuInt{
+	max-width: 1024px;
+	height: 100px;
+	margin: auto;
+	display: flex;
+	align-items: center;
+}
+.menu .menuInt a{
+	color: #1E90FF;
+	text-decoration: none;
+}
+.menu .menuInt a:hover{
+	text-decoration: underline;
+	background-color: red;
+}
+.menu .menuInt ul,
+.menu .menuInt li{
+	margin: 0px;
+	padding: 0px;
+	height: 50px;
+}
+.menu .menuInt ul{
+
+}
+.menu .menuInt li{
+	list-style: none;
+	float: left;
+	font-size: 25px;
+	padding-left: 10px;
+	padding-right: 5px;
+	margin-right: 5px;
+	text-align: center;
+	line-height: 50px;
+	background-color: #DCDCDC;
+	border-radius: 5px;
+	transition: background-color 0.5s;
+}
+.menu .menuInt li:hover{
+	background-color: #696969;
+}
+
+/* conteudo */
+.conteudo{
+	background-color: #00FFFF;
+	max-width: 1024px;
+	height: auto;
+	margin: auto;
+}
+.conteudo_1{
+	max-width: 1024px;
+	height: auto;
+}
+.conteudo_1_1{
+	background-color: #0000FF;
+	max-width: 1024px;
+	height: 300px;	
+	margin-bottom: 5px;
+}
+
+/* rodape */
+.rodape{
+	height: 100px;
+	background-color: #000; 
+}
+
+/* chat */
+.chat{
+	width: 350px;
+	height: auto;
+	position: fixed;
+	right: 0px;
+	bottom: 0px;	
+}
+.chat .chatTopo{
+	width: 350px;
+	height: 50px;
+	background-color: #008B8B;
+	cursor: pointer;
+	display: flex;
+}
+.chat .chatTopo .fechar{
+	width: 29px;
+	height: 50px;
+	border-right: 1px solid #ccc;
+	text-align: center;
+	line-height: 50px;
+	font-size: 20px;
+	font-weight: bold;
+}
+.chat .chatTopo .titulo{
+	width: 100%;
+	max-width: 320px;
+	height: 50px;
+	line-height: 50px;
+}
+.chat .chatTopo .titulo h2{
+	margin: 0px;
+	padding: 0px;
+	padding-left: 5px;
+}
+.chat .chatUser{
+	width: 100%;
+	max-width: 320px;
+	height: 370px;
+	overflow: auto;
+	background-color: #B0C4DE;
+	float: right;
+}
+.chat .chatUser .user{
+	max-width: 310px;
+	height: 40px;
+	padding-left: 10px;
+	border-bottom: 1px solid #ccc;
+	display: flex;
+	align-items: center;
+}
+.chat .chatUser .user:hover{
+	cursor: pointer;
+	background-color: #a9a9a9;
+}
+.chat .chatUser .user .userNome{
+	padding-left: 20px;
+	font-size: 12px;
+}
